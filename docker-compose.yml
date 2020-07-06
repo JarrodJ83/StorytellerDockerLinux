@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  linuxpaths:
+    image: ${DOCKER_REGISTRY-}linuxpaths
+    build:
+      context: .
+      dockerfile: LinuxPaths/Dockerfile
